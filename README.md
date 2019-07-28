@@ -27,6 +27,14 @@ D E V E L O P M E N T
 * Test framework: Pytest for Python3
 * Code Quality: Pylama and ESLint
 
+## Hardware Construction
+
+The 4 Pin JST Cable connects the Soil Moisture Sensor to pins 1 (power), 3 and 5 (I2C), and 9 (ground):
+
+![](https://github.com/breycarr/deep_root/blob/master/public/images/models/Sensor_hooked_up_to_Raspberry_Pi.jpg?raw=true)
+
+The LCD touchscreen covers all of these pins, so manual adjustment of the wires is necessary. A full explanation of how to connect the multiple slave devices can be found in [this blog post](https://medium.com/@makers_c_a_c_t_u_s/multiple-slave-devices-not-enough-rpi-gpio-pins-no-problem-c3403a981623).
+
 ## Installation on Your Raspberry Pi
 
 In the terminal, run:

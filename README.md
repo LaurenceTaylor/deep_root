@@ -72,6 +72,8 @@ To run tests for this project, after you have downloaded the repo, run the follo
 > pytest --cov   # To run tests and see test coverage for Python3     
 ```
 
+The project has 100% test coverage with Pytest.
+
 ## PROJECT PROCESS
 
 
